@@ -19,42 +19,27 @@
         <div class="top">
           <div class="top-text">
             <p>With Free Source Code</p>
-            <br />
             <p><span>TO DO LIST</span></p>
           </div>
         </div>
         <div class="bottom">
           <div class="bottom-text">
-            <span>HTML, CSS, Javascipt</span>
+            <span>HTML, CSS, JavaScript</span>
           </div>
         </div>
-        <div class="right"></div>
         <div class="left">
           <div class="form-container">
-            <form>
+            <form onsubmit="return false">
               <div class="top-input">
-                <input type="text" name="" id="" placeholder="Enter Task" />
-                <button type="button">Add</button>
+                <input type="text" id="input-text" placeholder="Enter Task" />
+                <button type="button" id="Add">Add</button>
               </div>
-              <div class="input-group">
-                <div class="input">
-                  <input type="checkbox" class="radio" />Edit Video
-                </div>
-                <div class="icons">
-                  <div class="edit">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </div>
-                  <div class="delete">
-                    <i class="fa-solid fa-trash-can Delete"></i>
-                  </div>
-                </div>
-              </div>
+              <div class="task-list"></div>
             </form>
           </div>
         </div>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
